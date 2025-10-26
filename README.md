@@ -67,8 +67,8 @@ XPipe treats pipeline stages as **players in a cooperative game**, using **Shapl
 
 ```bash
 # Clone repository (available after publication)
-git clone https://github.com/mesabo/XPipeline.git
-cd XPipeline/xpipe
+git clone https://github.com/hosei-university-iist-yulab/XPipe.git
+cd XPipe
 
 # Install dependencies
 pip install -r requirements.txt
