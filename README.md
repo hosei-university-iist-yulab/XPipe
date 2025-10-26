@@ -1,6 +1,6 @@
 # XPipe: Explainable Multi-Stage LLM Pipeline Evaluation via Causal Attribution
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Conference](https://img.shields.io/badge/Conference-ITU%20Kaleidoscope%202026-green.svg)](https://kaleidoscope2026.itu.int)
 
@@ -348,7 +348,7 @@ Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Ja
 
 ## 📜 License
 
-This project will be licensed under the {not decided yet} upon public release.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
