@@ -1,0 +1,43 @@
+# =====================================================================
+# models.yaml  — XPipe Model Registry (Free / Local Release Edition)
+# =====================================================================
+# Each key is a "model handle" (string) that you can reference inside
+# experiment configs (e.g., experiment_rag.yaml).
+#
+# Format per entry:
+#   <handle>:
+#     backend: hf | ollama
+#     id: <actual HF model ID or Ollama tag>
+#     params: { generation parameters / defaults }
+#
+# Backends:
+#   - hf      : Hugging Face Transformers (runs locally, CPU or GPU)
+#   - ollama  : Ollama server (optional, if you have `ollama serve` running)
+#
+# Notes:
+#   • All listed models are free and publicly available.
+#   • Hugging Face models auto-download on first use.
+#   • Ollama models require manual `ollama pull` before first use.
+#   • You can add more entries by following the same format.
+#
+# ---------------------------------------------------------------------
+# Hugging Face Models (Local, Free)
+# ---------------------------------------------------------------------
+
+
+# ---------------------------------------------------------------------
+# Ollama Models (Optional; require local Ollama server)
+# ---------------------------------------------------------------------
+# To enable these:
+#   1) Install Ollama: https://ollama.com/download
+#   2) Run: `ollama serve`
+#   3) Pull models:
+#        ollama pull llama3.2:3b-instruct
+#        ollama pull qwen2.5:3b-instruct
+#        ollama pull deepseek-r1:1.5b
+#   4) Ensure server is running at localhost:11434
+
+
+# =====================================================================
+# Total: 10 models (7 Hugging Face, 3 Ollama)
+# =====================================================================
