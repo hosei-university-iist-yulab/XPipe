@@ -4,7 +4,8 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Conference](https://img.shields.io/badge/Conference-ITU%20Kaleidoscope%202026-green.svg)](https://kaleidoscope2026.itu.int)
 
-> <span style="color: red;">**Note**: This repository will be made publicly available upon publication at ITU Kaleidoscope 2026.</span>
+> [!CAUTION]
+> **Note**: This repository will be made publicly available upon publication at ITU Kaleidoscope 2026.
 
 ## 📖 Overview
 
