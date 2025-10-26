@@ -333,7 +333,8 @@ If you use XPipe in your research, please cite our ITU Kaleidoscope 2026 paper:
 
 **Franck Junior Aboya Messou** (Lead Author)
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
-📧 franckjunioraboya.messou@ieee.org | mesabo.22r1068@stu.hosei.ac.jp
+📧 franckjunioraboya.messou@ieee.org | franckjunioraboya.messou.3n@stu.hosei.ac.jp
+
 [ResearchGate](https://www.researchgate.net/profile/Franck-Junior-Aboya-Messou) | [IEEE Xplore](https://ieeexplore.ieee.org/author/274956027119414)
 
 **Jinhua Chen, Weiyu Wang, Tao Yu, Keping Yu**
@@ -347,7 +348,7 @@ Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Ja
 
 ## 📜 License
 
-This project will be licensed under the Apache License 2.0 upon public release.
+This project will be licensed under the {not decided yet} upon public release.
 
 ---
 
@@ -364,7 +365,7 @@ This research is supported by:
 ## 📧 Contact
 
 For questions or collaboration:
-- **Email**: mesabo.22r1068@stu.hosei.ac.jp
+- **Email**: franckjunioraboya.messou.3n@stu.hosei.ac.jp
 - **Issues**: GitHub Issues (available after publication)
 
 ---
