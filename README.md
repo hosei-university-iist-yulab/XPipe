@@ -9,6 +9,7 @@
 
 ## 📖 Overview
 
+![UnifiedLLM Architecture](architecture.png)
 **XPipe** is the first framework to apply **Shapley value causal attribution** to multi-stage Large Language Model (LLM) pipeline evaluation for telecommunications systems. When RAG pipelines fail in safety-critical infrastructure, XPipe answers the critical question: ***Which component is responsible?***
 
 ### The Problem
