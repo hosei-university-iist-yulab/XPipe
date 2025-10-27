@@ -216,7 +216,7 @@ If you use XPipe in your research, please cite our ITU Kaleidoscope 2026 paper:
 
 ```bibtex
 @INPROCEEDINGS{Messou2026XPipe,
-  author={Messou, Franck Junior Aboya and Chen, Jinhua and Wang, Weiyu and Yu, Tao and Liu, Tong and Zhang, Shilong and Yu, Keping},
+  author={Messou, Franck Junior Aboya and Chen, Jinhua and Zhang, Shilong and Liu, Tong and Tao, Yu and Wang, Weiyu and Yu, Keping},
   booktitle={ITU Kaleidoscope 2026: The Evolution of Intelligent Communication Systems},
   title={XPipe: Explainable Multi-Stage LLM Pipeline Evaluation via Causal Attribution for Telecommunications},
   year={2026},
@@ -335,15 +335,31 @@ If you use XPipe in your research, please cite our ITU Kaleidoscope 2026 paper:
 **Franck Junior Aboya Messou** (Lead Author)
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
 📧 franckjunioraboya.messou@ieee.org | franckjunioraboya.messou.3n@stu.hosei.ac.jp
+[ResearchGate](https://www.researchgate.net/profile/Franck-Junior-Aboya-Messou) | [IEEE Xplore](https://ieeexplore.ieee.org/author/274956027119414) | [Google Scholar](https://scholar.google.ca/scholar?hl=fr&as_sdt=0%2C5&q=franck+junior+aboya+messou&btnG=)
 
-[ResearchGate](https://www.researchgate.net/profile/Franck-Junior-Aboya-Messou) | [IEEE Xplore](https://ieeexplore.ieee.org/author/274956027119414)| [Google Scholar](https://scholar.google.ca/scholar?hl=fr&as_sdt=0%2C5&q=franck+junior+aboya+messou&btnG=)
-
-**Jinhua Chen, Weiyu Wang, Tao Yu, Keping Yu**
+**Jinhua Chen**
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
-📧 {jinhua.chen, wang.weiyu, yu.tao, keping.yu}@ieee.org
+📧 jinhua.chen@ieee.org
 
-**Tong Liu, Shilong Zhang**
+**Shilong Zhang**
 Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
+📧 shilong.zhang@ieee.org
+
+**Tong Liu**
+Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
+📧 tong.liu@ieee.org
+
+**Tao Yu**
+Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
+📧 taoyu@ieee.org
+
+**Weiyu Wang**
+Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
+📧 wang.weiyu@ieee.org
+
+**Keping Yu**
+Graduate School of Science and Engineering, Hosei University, Tokyo 184-8584, Japan
+📧 keping.yu@ieee.org
 
 ---
 
