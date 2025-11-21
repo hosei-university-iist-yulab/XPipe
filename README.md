@@ -1,4 +1,4 @@
-# XPipe: Explainable Multi-Stage LLM Pipeline Evaluation via Causal Attribution
+# XPipe: Explainable Multi-Stage Large Language Models Pipeline Evaluation via Causal Attribution
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
