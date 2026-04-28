@@ -1,55 +1,49 @@
-# ----------------------------------------------------------------------
-# XPipe Project .gitignore
-# ----------------------------------------------------------------------
-
-# Python cache / build
+# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 *.so
 *.egg-info/
 build/
 dist/
 
 # Virtual environments
-.venv/
 venv/
+.venv/
 env/
 ENV/
 
-# Jupyter notebooks checkpoints
-.ipynb_checkpoints/
-
-# Logs
-*.log
-
-# Editor / IDE files
+# IDEs and OS
 .vscode/
 .idea/
-.claude
 *.swp
 *~
+.DS_Store
+Thumbs.db
 
-# ----------------------------------------------------------------------
-# Project-specific ignores
-# ----------------------------------------------------------------------
+# Jupyter
+.ipynb_checkpoints/
 
-# Generated experiment logs, metrics, plots
-#output/
-#outputs/
+# Secrets
+.env
+*.key
+*_api_key.txt
 
-# Generated corpora / large datasets
+# Generated experiment artifacts
+output/
+outputs/
+runs/
+logs/
+*.log
+
+# Datasets are sourced from public origins; not redistributed here
 datasets/
 
-# SLURM job outputs
-slurm-*.out
-slurm-*.err
+# Cache
+.cache/
+*.pkl
+*.pickle
 
-# ----------------------------------------------------------------------
-# Allow keeping empty dirs (tracked with .gitkeep if needed)
-# ----------------------------------------------------------------------
-!.gitkeep
-
-# confidential
-timeline/
+# pytest / mypy
+.pytest_cache/
+.mypy_cache/
+.coverage

@@ -1,1 +1,40 @@
 # configs/experiment_rag.yaml
+name: xpipe_rag_free
+pipeline: rag
+logdir: output/xpipe
+
+retriever:
+  name: simple_overlap   # or: jaccard
+  top_k: 3
+
+llms:
+  synthesize:
+    model: hf/gpt2
+    params:
+      max_new_tokens: 160
+      temperature: 0.1
+  judge:
+    enabled: true        # set to false to "remove the judge"
+    model: hf/distilgpt2 # (placeholder; not used by heuristic judge yet)
+    params:
+      max_new_tokens: 8
+      temperature: 0.0
+
+prompt:
+  budget_tokens: 900         # total input tokens (before generation)
+  ctx_per_doc_tokens: 300    # max tokens per retrieved doc
+
+dataset:
+  path: datasets/tbmp_2024/chunks.jsonl
+
+queries:
+  - id: q1
+    text: "What is the role of a motion to compel in TTAB discovery?"
+    ref:  "A motion to compel asks the Board to order a party to provide required discovery responses or disclosures that were not served, incomplete, or inadequate."
+  - id: q2
+    text: "When are sanctions appropriate relative to motions to compel?"
+    ref:  "Sanctions may be considered if a party fails to comply with discovery obligations or a Board order (including an order granting a motion to compel), or otherwise abuses discovery."
+
+outputs:
+  run_jsonl: ""
+  metrics_csv: ""
