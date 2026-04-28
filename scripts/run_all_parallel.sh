@@ -38,7 +38,7 @@ echo ${EXP2_PID} > output/exp2_parallel.pid
 
 echo ""
 echo "============================================================"
-echo "Both experiments launched successfully!"
+echo " Both experiments launched successfully!"
 echo "============================================================"
 echo ""
 echo "Process IDs:"

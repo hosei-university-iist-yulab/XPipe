@@ -150,8 +150,3 @@ Where files land (summary)
 - Per-run traces JSONL: output/xpipe/runs/<stamp>_<run>.jsonl
 - Figures: output/xpipe/figs/
 - Ablation CSVs (scripts may write): output/xpipe/ablations/
-
-If you want, I can:
-- Add example outputs (example CSV rows) for each script.
-- Add a small "check-before-run" shell snippet to verify prerequisites.
-- Create a top-level Makefile target to run common flows.
